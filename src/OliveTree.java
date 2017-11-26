@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ * My happy tree
+ */
 public class OliveTree {
 
     //    properties
