@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class OliveTree {
 
     //    properties
-    String species;
-    int age;
-    double price;
+    private String species;
+    private int age;
+    private double price;
 
 
     //    constructor
