@@ -33,11 +33,12 @@ public class Triangle {
         this.c = c;
     }
 
-    public double compareTo(Triangle t) {
+    public double similarTo(Triangle t) {
         if ((t.getA() / this.a == t.getB() / this.b) && ((t.getB() / this.b) == (t.getC() / this.c)))
-          return t.getA() / this.a;
-        else
+            return t.getA() / this.a;
+        else {
             return 0;
+        }
     }
 
 
