@@ -46,7 +46,7 @@ public class Triangle {
     private static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
         boolean keepOn = true;
-        while (keepOn) {
+        while (keepOn == true) {
             System.out.println("Triangle 1! Enter 3 Edges");
             Triangle t1 = new Triangle(scan.nextDouble(), scan.nextDouble(), scan.nextDouble());
             System.out.println("Triangle 2! Enter 3 more Edges");
